@@ -1,12 +1,46 @@
 :root {
   font: 16px / 1 sans-serif;
 }
-
 html {
   height: 100%;
 }
-
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(2, 2, 87);
+}
+.header {
+  align-items: center;
+  padding: 6rem;
+  margin-top: 0rem;
+  margin-right: 2rem;
+  background-image: url(Party.png);
+  background-repeat: no-repeat;
+}
+.movie-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5rem dotted rgb(236, 144, 144);
+  margin-bottom: 2rem;
+}
+.movie-item li {
+  list-style: none;
+  text-align: center;
+}
+.title {
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: rgb(163, 162, 162);
+  border: 0.3rem solid black;
+  margin: 1rem;
+}
+.overview {
+  padding: 1rem;
+  background-color: rgb(163, 162, 162);
+  padding: 1rem;
+  margin: 1rem;
+  border: 5px dashed rgb(115, 255, 255);
+}
+.movie-item img {
+  padding-bottom: 2rem;
 }
